@@ -22,7 +22,111 @@
 
 @media (min-width:320px) {
     body {
-        background-color: red;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        display: flex;
+        height: 50px;
+        justify-content: space-between;
+        padding: 0 25px;
+        border: 1px solid black;
+    }
+    header nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav p {
+        margin-left: 15px;
+    }
+
+    .jumbotron {
+        background-image: url("/welcome.png");
+        height: 271px;
+        width: 100%;
+        background-position: left;
+        background-size: cover;
+        border: 1px solid black;
+    }
+
+    .quote {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+    .quote h1 {
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    .quote p {
+        font-family: var(--secondary-font-family);
+        font-size: 10px;
+        color: var(--secondary-color);
+    }
+
+    .latest-posts {
+        padding-left: 10px;
+        padding-top: 10px;
+        border: 1px solid black;
+        height: 275px;
+    }
+
+    .latest-posts h2 {
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 5px;
+    }
+
+    .posts {
+        display: flex;
+    }
+
+
+    .post img {
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
+    }
+
+    .post p {
+        font-size: 12px;
+    }
+
+    .post a {
+        font-size: 12px;
+    }
+
+    .post a:link {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
+
+    .post a:visited {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
+
+    footer {
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+    }
+
+    footer p {
+        color: var(--secondary-color);
+        font-family: var(--secondary-font-family);
+        font-size: 10px;
     }
 }
 
@@ -40,10 +144,6 @@
         padding: 0 25px;
         border: 1px solid black;
     }
-
-
-    
-
     header nav {
         display: flex;
         justify-content: center;
