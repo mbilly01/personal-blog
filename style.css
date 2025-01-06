@@ -45,7 +45,7 @@
     }
 
     .jumbotron {
-        background-image: url("/welcome.png");
+        background-image: url("welcome.png");
         height: 271px;
         width: 100%;
         background-position: left;
@@ -157,7 +157,7 @@
     }
 
     .jumbotron {
-        background-image: url("/welcome.png");
+        background-image: url("welcome.png");
         height: 271px;
         width: 100%;
         background-position: left;
@@ -289,6 +289,7 @@
     .project-text {
         margin-left: 10px;
         margin-bottom: 5px;
+        margin-top: 5px;
     }
 
     .projects {
