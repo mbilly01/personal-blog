@@ -52,7 +52,7 @@
     }
 
     .jumbotron {
-        background-image: url("welcome.png");
+        background-image: url("welcome.webp");
         height: 271px;
         width: 100%;
         background-position: left;
@@ -170,7 +170,7 @@
     }
 
     .jumbotron {
-        background-image: url("welcome.png");
+        background-image: url("welcome.webp");
         height: 271px;
         width: 100%;
         background-position: left;
